@@ -1,0 +1,5 @@
+<Directory /var/www/html>
+  AllowOverride All
+</Directory>
+restart apache
+/etc/init.d/httpd restart 
